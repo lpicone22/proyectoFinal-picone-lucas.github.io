@@ -140,6 +140,7 @@ section.planes_omint{
     text-align: center;
     color: white;
     font-family: sans-serif;
+    justify-content: space-between;
 }
 
 .clinicas img {
