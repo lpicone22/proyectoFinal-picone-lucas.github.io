@@ -13,17 +13,18 @@ header {
     justify-content: space-between;
     height: auto;
     padding: auto;
-    align-items: center;
+    align-items: center!important;
+    margin: auto;
     
 }
-header div img {
-    justify-content: center;
-    height: auto;
-}
-nav {
-width: 800px;
+
+    
+
+nav{
+
 height: auto;
 text-align: center;
+justify-content: center;
 
 
 
@@ -36,8 +37,11 @@ nav ul li {
     padding: 20px;
     list-style: none;   
 }
+.li{
+    align-items: center;
+}
 nav ul li a {
-    color: #019df4;
+    color: white;
     text-decoration: none;
 }
 
@@ -64,6 +68,9 @@ section{
     
 }
 
+.row.g-3{
+    margin: auto;
+}
  form {
     
     margin: auto;
