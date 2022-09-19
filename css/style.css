@@ -8,41 +8,40 @@
 
 
 header { 
-    background-color: #0b2739;
+    background-color:#034081;
     display: flex;
     justify-content: space-between;
     height: auto;
     padding: auto;
-    align-items: center!important;
+    align-items: center;
     margin: auto;
     
 }
 
-    
 
-nav{
-
+.nav{
 height: auto;
 text-align: center;
 justify-content: center;
 
-
-
 }
+
 nav ul li {
    
     display: flex;
     text-decoration: none;
     display: inline;
     padding: 20px;
-    list-style: none;   
+    list-style: none; 
+    align-items: center;  
 }
-.li{
-    align-items: center;
-}
+
 nav ul li a {
-    color: white;
+    color:white;
     text-decoration: none;
+    align-items: center;
+  
+
 }
 
 section{
