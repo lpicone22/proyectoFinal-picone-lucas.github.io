@@ -17,7 +17,11 @@ header {
     margin: auto;
     
 }
-
+@media  (min-width: 412px) {
+    header{
+        flex-direction: column;
+    }
+}
 
 .nav{
 height: auto;
@@ -43,7 +47,9 @@ nav ul li a {
   
 
 }
-
+#menu{
+    background-color: aqua;
+}
 section{
     background-color: #f1f1f1;
     
@@ -79,8 +85,20 @@ section{
     width: auto;
     justify-content: center;
     height: 100%;
+
  }
-div.cotizador {
+
+ @media  (max-width: 1024px){
+    div.principal{
+        flex-direction: column;
+    }
+
+ }
+
+
+
+
+ div.cotizador {
     background-color:#0b2739;
     display: flex;
     height: 424px;
