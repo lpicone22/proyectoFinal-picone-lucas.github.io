@@ -229,10 +229,12 @@ div.ventas{
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 5px;
-   
-   
+ }
+ #id.carouselExampleControls img{
+    width: 100%;
+ }
 
-}
+
 section.contacto{
     display: flex;
     justify-content: space-between;
