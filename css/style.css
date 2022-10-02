@@ -5,6 +5,18 @@
     
    
  }
+div.b-wts{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    display: flex;
+    margin: 5%;
+    
+
+    
+    
+}
 
 header { 
     background-color:#034081;
@@ -124,6 +136,7 @@ section{
     padding: 10px;
     margin: 20px;
     color: #034081;
+   
  }
 
  div.principal{
