@@ -5,16 +5,20 @@
     
    
  }
-div.b-wts{
+
+div.b-wts  {
     position: fixed;
     width: 60px;
     height: 60px;
     bottom: 90px;
-    display: flex;
-    margin: 5%;
+    right: 25px;
+    border-radius: 100%;
     
-
-    
+ }
+div.b-wts:hover{
+   background-color:#0b2739;
+   
+   
     
 }
 
