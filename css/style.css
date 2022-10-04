@@ -238,21 +238,6 @@ div.ventas{
     color: #0b2739;
 }
 
-
-
-.sanatorios{
-    display: inline;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
- }
- #id.carouselExampleControls img{
-    width: 100%;
- }
-
-
 section.contacto{
     display: flex;
     justify-content: space-between;
@@ -262,9 +247,7 @@ section.contacto{
     gap: 10px;
 
 }
-
-
-    
+  
 .hijo-grid{
    color: white;
    
