@@ -9,7 +9,7 @@ marquee img {
 }
 
 .contenedorPrestadores {
-  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   color: white;
   padding: 5%;
   height: auto;
@@ -23,4 +23,16 @@ marquee img {
   .contenedorPrestadores {
     flex-direction: column;
   }
+}
+
+.desplegableClinicas {
+  display: block;
+  width: 80%;
+  height: auto;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  margin-left: 10%;
+  padding: 1%;
+}
+.desplegableClinicas img {
+  width: 100%;
 }/*# sourceMappingURL=main_estilos.css.map */
