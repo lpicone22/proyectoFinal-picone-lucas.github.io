@@ -38,5 +38,37 @@ marquee img {
 }
 
 .contacto {
-  background-image: url(//imagenes/medico_portada_contacto.png);
+  background-image: url("/imagenes/medico_portada_contacto_altura.png");
+  background-position: right top;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.contacto .canales {
+  padding: 1%;
+  color: #034081;
+}
+@media (max-width: 750px) {
+  .contacto .canales {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .contacto .canales {
+    margin-left: 2%;
+  }
+}
+.contacto .redes {
+  display: flex;
+}
+@media (max-width: 750px) {
+  .contacto .redes {
+    flex-direction: row-reverse;
+  }
+}
+.contacto .redes img {
+  height: 50px;
 }/*# sourceMappingURL=main_estilos.css.map */
