@@ -15,11 +15,8 @@ div.b-wts  {
     border-radius: 100%;
     
  }
-div.b-wts:hover{
+div.b-wts:hover {
    background-color:#0b2739;
-   
-   
-    
 }
 
 header { 
@@ -30,8 +27,6 @@ header {
     padding: auto;
     align-items: center;
     margin: auto;
-    
-    
 }
 @media  (max-width: 750px) {
     header{
@@ -47,7 +42,6 @@ justify-content: center;
 }
 
 nav ul li {
-   
     display: flex;
     text-decoration: none;
     display: inline;
@@ -60,8 +54,6 @@ nav ul li a {
     color:white;
     text-decoration: none;
     align-items: center;
-  
-
 }
 
 
@@ -79,8 +71,7 @@ section{
     width: auto;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
-    
+
 }
 .contenido_central {
     display: flex;
@@ -175,27 +166,15 @@ section{
     width: auto;
     margin: 50px;
 }
-div.google{
-    height: 343px;
-    width: 200px;
-}
+
 iframe.mapa{
     height: 343px;
     width: 340px;
 }
-div.foto-contacto{
-    margin: 35px;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    margin-left: 30px;
-}
+
 section.planes_omint{
     background-color: #0b2739;
 }
-
-
-
 
 .cont_ventas{
     display: flex;
@@ -211,10 +190,6 @@ div.cont_ventas img {
     width: 100%;
     height: 100%;
     padding: 1rem;
-   
-
-
-
 }
 
 div.cont_ventas{
@@ -252,7 +227,6 @@ div.ventas{
    width: auto;
    width: 100%; 
    height: 100%;
-   
   
 } 
 
