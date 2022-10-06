@@ -35,4 +35,8 @@ marquee img {
 }
 .desplegableClinicas img {
   width: 100%;
+}
+
+.contacto {
+  background-image: url(//imagenes/medico_portada_contacto.png);
 }/*# sourceMappingURL=main_estilos.css.map */

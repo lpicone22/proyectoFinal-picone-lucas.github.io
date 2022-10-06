@@ -238,15 +238,7 @@ div.ventas{
     color: #0b2739;
 }
 
-section.contacto{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-    gap: 10px;
 
-}
 .masBeneficios{
     background-color: white;
     color: #034081;
