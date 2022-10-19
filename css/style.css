@@ -19,44 +19,6 @@ div.b-wts:hover {
    background-color:#0b2739;
 }
 
-header { 
-    background-color:#034081;
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    padding: auto;
-    align-items: center;
-    margin: auto;
-}
-@media  (max-width: 750px) {
-    header{
-        flex-direction: column;
-    }
-}
-
-.nav{
-height: auto;
-text-align: center;
-justify-content: center;
-
-}
-
-nav ul li {
-    display: flex;
-    text-decoration: none;
-    display: inline;
-    padding: 20px;
-    list-style: none; 
-    align-items: center;  
-}
-
-nav ul li a {
-    color:white;
-    text-decoration: none;
-    align-items: center;
-}
-
-
 section{
     background-color: #f1f1f1;
     text-align: center;
