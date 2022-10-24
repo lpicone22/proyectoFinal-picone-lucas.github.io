@@ -199,6 +199,13 @@ div.ventas{
         width: 100%;
         text-align: center;
         justify-content: center;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+
+       
+        
         
     }
 }
