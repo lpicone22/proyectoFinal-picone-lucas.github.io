@@ -29,12 +29,24 @@ marquee {
         display: block;
         width: 80%;
         height: auto;
-        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);;
         margin-left: 10%;
         padding: 1%;
-        img{
+
+
+        img  {
+
+
+          @media  (max-width: 1100px){
             width: 100%;
-        }
+          }
+
+
+         }
+
+
+        
+        
     }
     .contacto{
       background-image:url("../imagenes/medico_portada_contacto_altura.png");
