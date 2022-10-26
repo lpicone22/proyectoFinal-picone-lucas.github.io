@@ -33,9 +33,10 @@ marquee img {
   margin-left: 10%;
   padding: 1%;
 }
-.desplegableClinicas img {
-  display: flex;
-  align-items: center;
+@media (min-width: 1101px) {
+  .desplegableClinicas img {
+    margin-left: 10%;
+  }
 }
 @media (max-width: 1100px) {
   .desplegableClinicas img {

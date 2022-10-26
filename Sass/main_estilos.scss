@@ -35,6 +35,11 @@ marquee {
 
 
         img  {
+          
+          @media  (min-width: 1101px){
+            margin-left: 10%;
+            
+          }
 
 
           @media  (max-width: 1100px){
@@ -43,11 +48,10 @@ marquee {
 
 
          }
-
-
-        
-        
+   
     }
+ 
+
     .contacto{
       background-image:url("../imagenes/medico_portada_contacto_altura.png");
       background-position: right top;
