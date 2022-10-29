@@ -23,7 +23,13 @@ marquee {
         flex-direction: column;
      
     }
-      
+    h2{
+
+    
+    @media  (min-width: 1200px){
+      width: 800px;
+    }
+  }
     } 
     .desplegableClinicas {
         display: block;

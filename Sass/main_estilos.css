@@ -24,6 +24,11 @@ marquee img {
     flex-direction: column;
   }
 }
+@media (min-width: 1200px) {
+  .contenedorPrestadores h2 {
+    width: 800px;
+  }
+}
 
 .desplegableClinicas {
   display: block;
