@@ -37,6 +37,20 @@ section{
     width: auto;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+
+}
+.encabezado_form{
+
+    color: #034081;
+    justify-items: center;
+    padding: 20px;
+    align-items: center;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
 
 }
 .contenido_central {
@@ -99,7 +113,6 @@ section{
     color: #034081;
    
  }
-
  div.principal{
     padding: auto;
     height: auto;
@@ -110,19 +123,25 @@ section{
     width: 100%;
     background-color: #f1f1f1;
     
+    
+    
  }
  div.flia{
     height: auto;
     width: 100%;
+    padding: 3%;
  }
  div.flia img{
    
     height: auto;
     width: 100%;
  }
-
-
-
+ .form_hubspot{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+ 
 
  div.datos {
     justify-content: center;
@@ -185,21 +204,23 @@ div.ventas{
     color: #034081;
     padding: 3%;
 }
-.hijo-grid{
+ .hijo-grid {
+   
    color: #034081;
-   justify-items: center;
+    justify-items: center;
    justify-content: center;
    text-align: center;
    width: auto;
    width: 100%; 
    height: 100%;
+   
   
 } 
 
 
 @media  (max-width: 750px) {
     .contenedor-grid {
-        
+       
         width: 90%;
         text-align: center;
         justify-content: center;
@@ -207,6 +228,7 @@ div.ventas{
         display: flex;
         flex-direction: column;
         margin: 5%;
+        display: grid;
        
 
        
@@ -225,7 +247,7 @@ div.ventas{
         justify-content: center;
         gap: 5%;
         margin: 2px; 
-        padding: 5%;
-       
-    }
-}
+        padding-right: 2%;
+        padding-left: 2%;
+}}
+
